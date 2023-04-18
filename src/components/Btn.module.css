@@ -1,0 +1,16 @@
+.btn {
+    width: 200px;
+    height: 60px;
+    border-radius: var(--border-radius);
+    background-color: var(--primary-yellow);
+    color: var(--secondary-light-gray);
+    font-size: var(--font-600);
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}

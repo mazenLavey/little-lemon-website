@@ -1,0 +1,51 @@
+.wrapper {
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    background-color: var(--secondary-light-gray);
+    overflow: hidden;
+}
+
+.wrapper > img {
+    width: 100%;
+}
+
+.text {
+    padding: 10px;
+}
+
+.text > p {
+    font-size: var(--font-300);
+    margin: 20px 0;
+}
+
+.text > button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin: 20px 0;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: var(--font-400);
+}
+
+.text > button:active {
+    transform: scale(0.95);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.header > h3 {
+    text-transform: capitalize;
+}
+
+.header > span {
+    color: var(--secondary-red);
+}
+
