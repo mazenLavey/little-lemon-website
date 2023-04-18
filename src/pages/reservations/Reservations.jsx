@@ -1,15 +1,9 @@
-
-import BookingForm from "./BookingForm";
+import BookingForm from '../../components/BookingForm';
 
 const Reservations = () => {
 
-
-    // function initializeTimes() {
-    //     const x = fetchData();
-    //     console.log(x)
-    // }
     return (
-        <section>
+        <section style={{marginBottom: "50px"}}>
             <h2>Reservations</h2>
             <BookingForm />
         </section>

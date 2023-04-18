@@ -8,6 +8,7 @@
 
 .text > span {
     font-size: var(--font-600);
+    font-family:  Markazi;
 }
 
 .text > p {

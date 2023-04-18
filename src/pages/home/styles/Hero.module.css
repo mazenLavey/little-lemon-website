@@ -17,11 +17,13 @@
     color: var(--primary-yellow);
     font-weight: 600;
     white-space: pre;
+    font-family:  Markazi;
 }
 
 .text > span {
     color: var(--secondary-light-gray);
     font-size: var(--font-700);
+    font-family:  Markazi;
 }
 
 .text > p {

@@ -1,14 +1,29 @@
 .wrapper {
     display: flex;
-    align-items: center;
-    gap: 10px;
-    min-height: 300px;
-    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 50px;
+    row-gap: 20px;
     background-color: var(--primary-dark-green);
     box-shadow: 0px 0px 0px 100vmax var(--primary-dark-green);
     clip-path: inset(0 -100vmax);
+    margin-top: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .wrapper > ul > li {
     color: #fff;
+}
+
+.wrapper h3 {
+    color: var(--primary-yellow);
+}
+
+.wrapper ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 10px;
+    color: var(--secondary-light-gray);
+    margin-top: 10px;
 }

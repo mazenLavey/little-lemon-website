@@ -3,8 +3,9 @@
     height: 60px;
     border-radius: var(--border-radius);
     background-color: var(--primary-yellow);
-    color: var(--secondary-light-gray);
-    font-size: var(--font-600);
+    color: #000;
+    font-weight: 600;
+    font-size: var(--font-400);
     text-transform: capitalize;
     border: none;
     outline: none;

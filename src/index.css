@@ -1,32 +1,6 @@
 /* import fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400&family=Markazi+Text:wght@500;700&display=swap');
 
-/* @font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/Poppins-Thin.woff') format('woff');
-  font-weight: 100;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/Poppins-Light.woff') format('woff');
-  font-weight: 300;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/Poppins-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Poppins';
-  src: url('../public/fonts/Poppins-Bold.woff') format('woff');
-  font-weight: 700;
-  font-style: normal;
-} */
 
 /* start global */
 :root {
@@ -42,7 +16,7 @@
 
   --border-radius: 16px;
 
-  --font-family: 'Poppins', sans-serif;
+  --font-family: 'Karla', sans-serif;
   --font-200: 0.6rem;
   --font-300: 0.875rem;
   --font-400: 1rem;
@@ -76,7 +50,7 @@ html {
 body {
   font-family: var(--font-family);
   font-size: var(--font-400);
-  /* letter-spacing: 0.05em; */
+  letter-spacing: 0.05em;
   line-height: 1.5;
 }
 
@@ -108,14 +82,17 @@ a {
 
 h1 {
   font-size: var(--font-xl);
+  font-family:  Markazi;
 }
 
 h2 {
   font-size: var(--font-700);
+  font-family:  Markazi;
 }
 
 h3 {
   font-size: var(--font-600);
+  font-family:  Markazi;
 }
 
 .container {

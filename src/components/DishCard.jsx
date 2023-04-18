@@ -1,5 +1,6 @@
 import DishCardCSS from './DishCard.module.css';
 import icon from '../assets/delivery-icon.svg';
+
 const DishCard = ({imgSrc, price, name})=>{
     return (
         <div className={DishCardCSS.wrapper}>

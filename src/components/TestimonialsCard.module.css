@@ -2,7 +2,7 @@
 .wrapper {
     background-color: var(--secondary-light-gray);
     padding: 20px;
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
+    border-radius: var(--border-radius);
 }
 
 .img {
